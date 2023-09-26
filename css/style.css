@@ -17,7 +17,7 @@ body, html {
 
 /*NAVBAR*/
 .bg-primary-color{
-    background-color: #87CEEB;
+    background-color: white;
 }
 
 .primary-color{
@@ -33,7 +33,7 @@ body, html {
 }
 
 #navbar a:hover{
-    color: white;
+    color: brown;
 }
 
 #navbar a.active {
