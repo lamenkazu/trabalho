@@ -115,9 +115,14 @@ body, html {
  /*CARDS*/
 .container-cards {
     width: 90%;
-    max-width: 1200px;
+    max-width: 85%;
     display: block;
-    margin: 1em auto;
+    margin: 1rem auto;
+}
+
+.album{
+    padding:1rem 0;
+    height: 85%;
 }
 
 .cards-header {
@@ -128,38 +133,45 @@ body, html {
 }
 
 .card {
-border: 1px solid #ccc;
-border-radius: 5px;
-margin-bottom: 1em;
-transition: transform 0.2s;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    transition: transform 0.2s;
 }
 
 .card:hover {
-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .card img {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-title {
-font-weight: 500;
-font-size: 1.2em;
-margin: 0.5em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0.5em 0;
 }
 
 .card-text {
-color: #555;
+    color: #555;
 }
 
 .btn-primary {
-background-color: #87CEEB;
-border-color: #87CEEB;
+    background-color: #87CEEB;
+    border-color: #87CEEB;
 }
 
 .btn-primary:hover {
-background-color: #6CA6CD;
-border-color: #6CA6CD;
-color: white;
+    background-color: #6CA6CD;
+    border-color: #6CA6CD;
+    color: white;
+}
+
+/* Rodapé */
+.footer {
+    background-color: white; /* Defina a cor de fundo desejada */
+    padding: 20px 0;
+    margin-top: 1em; /* Ajuste a margem superior conforme necessário */
 }
