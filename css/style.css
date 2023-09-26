@@ -127,7 +127,39 @@ body, html {
     margin-top: 1em;
 }
 
+.card {
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 1em;
+transition: transform 0.2s;
+}
 
-  
-  
-  
+.card:hover {
+transform: scale(1.02);
+}
+
+.card img {
+max-width: 100%;
+height: auto;
+}
+
+.card-title {
+font-weight: 500;
+font-size: 1.2em;
+margin: 0.5em 0;
+}
+
+.card-text {
+color: #555;
+}
+
+.btn-primary {
+background-color: #87CEEB;
+border-color: #87CEEB;
+}
+
+.btn-primary:hover {
+background-color: #6CA6CD;
+border-color: #6CA6CD;
+color: white;
+}
